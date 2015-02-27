@@ -4,4 +4,4 @@
 /.idea/libraries
 .DS_Store
 /build
-install_lib_azul.sh
+/install_lib_azul.sh
