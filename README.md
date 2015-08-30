@@ -14,7 +14,7 @@ This is a simple java library for communication over bluetooth in android applic
 <br><br>
 <h3>Implementation Instructions</h3>
 <br><br>
-_It is important to note_ that this is just a quick guide for how to get started. This is not the only to implement this library, and I encourage you to adjust your implementation in order to better suit your needs.<br><br>
+_It is important to note_ that this is just a quick guide for how to get started. This is not the only way to implement this library, and I encourage you to adjust your implementation in order to better suit your needs.<br><br>
 
 <b>Include this library it as a dependency</b> in your Android Studio project. A simplified explanation is as follows:<br>
   -Build a .aar from _this_ project<br>
