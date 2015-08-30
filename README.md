@@ -16,7 +16,7 @@ This is a simple java library for communication over bluetooth in android applic
 <br><br>
 _It is important to note_ that this is just a quick guide for how to get started. This is not the only way to implement this library, and I encourage you to adjust your implementation in order to better suit your needs.<br><br>
 
-<b>Include this library it as a dependency</b> in your Android Studio project. A simplified explanation is as follows:<br>
+<b>Include this library as a dependency</b> in your Android Studio project. A simplified explanation is as follows:<br>
   -Build a .aar from _this_ project<br>
   -Place it into the /libs folder of your module within _your_ project<br>
   -Include the following line to include this library within the build.gradle 'dependencies' section, which when done would look something like this...<br>
@@ -35,7 +35,7 @@ _It is important to note_ that this is just a quick guide for how to get started
   ```
   public class DemoClass extends BTCore {
   ```
-  The reason for this is the need to have access to specific callbacks only available to an Activity. Note that this will _not_ interfere with any of the callbacks in your class. This will most likely be changed in the future.
+  The reason for this is the need to have access to specific callbacks only available to an Activity. Note that this will _not_ interfere with any of the callbacks in your class. This is a bit hacky, and as such this will most likely be changed in the future.
   <br><br>
   <b>Instantiate an instance of BTCore in your onCreate method</b>, and call some methods to enable bluetooth (if it's not on already), make your device discoverable, and to start a server.
   ```
