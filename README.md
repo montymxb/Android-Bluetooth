@@ -1,9 +1,9 @@
 # Android-Bluetooth
-Library for simple bluetooth networking on Android (Pre-Bluetooth Low Energy)<br><br>
+Library for simple bluetooth networking on Android (Classic Bluetooth, not BLE)<br><br>
 <h3>Some info</h3>
 This is a simple java library for communication over bluetooth in android applications. This library handles finding, connecting, and talking to a client/server over bluetooth. This is an Android Studio library project.
 
-<b>This library is built using pre-ble (bluetooth low energy) api's</b> and will run on API 15, but can run as low as 10 provided you're willing to do without a few features. Connection state is also managed for you, allowing you to tell once a server/client has disconnected from you without a fuss. 
+<b>This library is built using classic bluetooth apis</b> (not bluetooth low energy) and will run on API 15, but can run as low as 10 provided you're willing to do without a few features. Connection state is also managed for you, allowing you to tell once a server/client has disconnected from you without a fuss. 
 
 <b>Issues such as dropped packets or temporary instabilities in connection are handled by a simple replay system</b>. If no reply is heard after x amount of time the library will automatically rebroadcast that message, as well as any others you have requested to be sent in addition at that time.
 
